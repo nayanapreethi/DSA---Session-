@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        int[] array = {2,3,2,1,6,7,2};
+        int count = 0;
+        int target = 2;
+        
+        for(int i = 0; i<array.length; i++){
+            if(target == array[i]){
+                count = count + 1;
+            }
+        }
+        System.out.println("Number of Occurence is: " + count);
+    }
+}
